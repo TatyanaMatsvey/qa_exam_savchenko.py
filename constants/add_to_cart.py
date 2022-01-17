@@ -1,0 +1,10 @@
+class AddToCartConstants:
+    URL = "http://automationpractice.com/"
+    WOMAN_CATEGORY_XPATH = ".//a[@href='http://automationpractice.com/index.php?id_category=3&controller=category' and @title='Women']"
+    WOMAN_TSHIRT_TITLE_XPATH = ".//a[@href='http://automationpractice.com/index.php?id_product=1&controller=product' and @title='Faded Short Sleeve T-shirts' and @class='product-name']"
+    WOMAN_TSHIRT_ADD_TO_CARD_XPATH = ".//button[@type='submit' and @class='exclusive']"
+    WOMAN_TSHIRT_ADD_QUANITY_XPATH = ".//i[@class='icon-plus']"
+    WOMAN_TSHIRT_CHANGE_COLOR_XPATH = ".//a[@href='http://automationpractice.com/index.php?id_product=1&controller=product' and @id='color_14']"
+    WOMAN_TSHIRT_CONFIRM_XPATH = ".//a[@href='http://automationpractice.com/index.php?controller=order' and @title='Proceed to checkout']"
+    WOMAN_TSHIRT_CHECK_CART_XPATH = ".//a[text()='Faded Short Sleeve T-shirts']"
+    WOMAN_T_CART_CHECK_COUNT_ITMES_XPATH = ".//input[@size='2']"
