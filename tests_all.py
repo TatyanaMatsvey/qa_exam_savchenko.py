@@ -44,10 +44,6 @@ class TestStartPage:
         driver.get(NewsletterConstants.URL)
         return Newsletter(driver)
 
-    @pytest.fixture(scope="function")
-    def mailbox(self, driver):
-        driver.get(NewsletterConstants.URL_GOOGLE)
-        return MailBox(driver)
 
     def test_login(self, start_page):
         """Авторизация на сайте с валидными данными """
